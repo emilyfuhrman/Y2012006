@@ -14,7 +14,6 @@ bomb.prototype.drawBomb = function(c)
 		this.angle += this.speed*3;
 		c.fillStyle = "rgb(25, 35, 30)";
 		c.beginPath();
-		//c.arc(Math.sin(this.angle)*this.radius, Math.cos(this.angle)*this.radius, this.radi, 0, 2 * Math.PI, false);
 		c.closePath();
 		c.lineWidth = 0.5;
 		c.beginPath();
