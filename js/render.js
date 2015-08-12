@@ -256,8 +256,8 @@ function windBlitz()
 		c.fillText(currentHum + "%", window.innerWidth - 87, window.innerHeight - 26);
 		
 		// rectangles
-		c.fillRect(4, yy, 12, 6);
-		c.fillRect(window.innerWidth - 16, yy, 12, 6);
+		c.fillRect(4.5, yy, 12, 6);
+		c.fillRect(window.innerWidth - 15.5, yy, 12, 6);
 	}, spin);
 	c.restore();
 }
